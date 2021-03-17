@@ -29,7 +29,7 @@
     <div class="alert alert-light text-center" role="alert">
       ルーン魔力値の小数点をぴったり0にしたい！
     </div>
-    <div class="d-block p-2">
+    <div class="d-block p-2" id ="rune-form">
       <label for="exampleFormControlInput1" class="form-label">ルーンの魔力値を入力してね！</label>
       <input type="text" class="mx-auto form-control bd-highlight w-25" id="exampleFormControlInput1" maxlength="6" placeholder="例）27.924（半角）">
     </div>
@@ -44,12 +44,12 @@
       </thead>
       <tbody>
         <tr>
-          <td>30.000</td>
+          <td id ="target-first"></td>
           <td>28.000</td>
           <td>29.000</td>
         </tr>
         <tr>
-          <td>31.000</td>
+          <td id ="target-second"></td>
           <td>28.000</td>
           <td>29.000</td>
         </tr>
