@@ -25,11 +25,9 @@ function rune(){
 
       console.log(baseTargetFirst,baseTargetSecond,outputTarget);
 
-
-
-  //目標値と入力値の差分を定義
-  let targetDifFirst = (baseTargetFirst - base).toFixed(3);
-  let targetDifSecond = (baseTargetSecond - base).toFixed(3);
+      //目標値と入力値の差分を定義
+      let targetDifFirst = (baseTargetFirst - base).toFixed(3);
+      let targetDifSecond = (baseTargetSecond - base).toFixed(3);
 
   let a = (((targetDifFirst - 0.1) * 5) + 27).toFixed(3);
   let b = ((targetDifFirst - 0.05) * 10).toFixed(3);
